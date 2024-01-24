@@ -1,9 +1,10 @@
 import React from 'react';
-import {View, StyleSheet, Text} from 'react-native';
+import {View, Text} from 'react-native';
+import stylesGlobal from '../styles/global';
 
 const Splash = () => {
   return (
-    <View>
+    <View style={stylesGlobal.container}>
       <Text>splash</Text>
     </View>
   );

@@ -1,13 +1,7 @@
-import {View, Text} from 'react-native';
 import React from 'react';
-import stylesGlobal from './src/styles/global';
-
+import Rotas from './src/routes/Routes.routes';
 const App = () => {
-  return (
-    <View style={stylesGlobal.container}>
-      <Text>App</Text>
-    </View>
-  );
+  return <Rotas />;
 };
 
 export default App;

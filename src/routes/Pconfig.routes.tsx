@@ -5,12 +5,12 @@ import Splash from '../screens/Splash';
 
 const Stack = createStackNavigator();
 
-const Screen = () => {
+const PConfig = () => {
   return (
-    <Stack.Navigator>
-      <Stack.Screen component={Splash} options={} />
+    <Stack.Navigator screenOptions={{headerShown: false}}>
+      <Stack.Screen component={Splash} name="Splash" options={{}} />
     </Stack.Navigator>
   );
 };
 
-export default Screen;
+export default PConfig;
